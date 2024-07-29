@@ -1,0 +1,23 @@
+
+li{
+    list-style: none;
+    
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+   
+    font-size: 18px;
+    transition: 0.2s;
+    user-select: none;
+}
+.checked{
+    text-decoration: line-through;
+}
+li:hover{
+    background: #000;
+    opacity: 0.3;
+    color: white;
+}
+li span{
+    display:flex;
+    justify-content: space-between;
+}
